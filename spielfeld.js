@@ -44,31 +44,6 @@ class Spielfeld{
                 }
             }
         }
-        //for (let x = 1; x >= -1; x-- ){
-        //    for (let y = 1; y >= -1; y--){
-        //        //let maxX = Math.max ((i - x),0);
-        //        //maxX = Math.min(maxX, this.height  - 1);
-        //        //
-        //        //let maxY =  Math.max ((j - y),0);
-        //        //maxY = Math.min(maxY, this.width - 1);
-        //        let actualX = i - x;
-        //        let actualY = j - y;
-        //        if(actualX >= 0 &&
-        //            actualY >= 0 &&
-        //            actualX < this.height &&
-        //            actualY  < this.width &&
-        //            !(i == x && j == y)) {
-        //
-        //
-        //            let state = this.zellen[actualX][actualY].state
-        //            debug += '(' + actualX + ',' + actualY + ' ' + state + ') ';
-        //            if (state) {
-        //                result++;
-        //            }
-        //        }
-        //    }
-        //
-        //}
         console.log(debug);
         return result;
     }
