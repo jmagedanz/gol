@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.12.0.js"></script>
+    <script src="spielfeld.js"></script>
+    <script src="zelle.js" ></script>
+    <style>
+        .zelle{
+            position: absolute;
+            background: #efefef;
+            width: 18px;
+            height: 18px;
+            border: 1px solid black;
+        }
+
+        .alive{
+            background: greenyellow;
+        }
+    </style>
+    <script>
+        $( document ).ready(function() {
+            var gol = new Spielfeld($('#game_container'));
+            gol.paint();
+        });
+    </script>
+</head>
+<body>
+
+    <div id="game_container"></div>
+</body>
+</html>
